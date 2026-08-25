@@ -1,0 +1,2 @@
+import { Injectable, signal } from '@angular/core';
+@Injectable({ providedIn: 'root' }) export class FavoritesService { readonly ids = signal<number[]>([]); readonly addedDates = new Map<number, string>(); toggle(id: number): void { this.ids.update((ids) => { if (ids.includes(id)) { this.addedDates.delete(id); return ids.filter((item) => item !== id); } this.addedDates.set(id, new Date().toISOString()); return [...ids, id]; }); } has(id: number): boolean { return this.ids().includes(id); } }
