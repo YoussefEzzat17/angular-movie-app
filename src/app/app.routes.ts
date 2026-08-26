@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 
+import { BindingPracticeComponent } from './pages/binding-practice/binding-practice.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
@@ -13,5 +14,6 @@ export const routes: Routes = [
   { path: 'products/:id', component: ProductDetailsComponent, title: 'Title Details' },
   { path: 'profile', component: ProfileComponent, title: 'Profile' },
   { path: 'favorites', component: FavoritesComponent, title: 'My List' },
+  { path: 'practice', component: BindingPracticeComponent, title: 'Binding Practice' },
   { path: '**', component: NotFoundComponent, title: 'Not Found' },
 ];

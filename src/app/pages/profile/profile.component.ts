@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
 import { DatePipe } from '@angular/common';
+import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+
 import { User } from '../../core/models/user.model';
 
 @Component({
@@ -44,6 +45,13 @@ export class ProfileComponent {
     name: 'Cristiano Ronaldo',
     email: 'cristiano@nightfall.stream',
     avatarUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg',
-    memberSince: '2003-08-16',
+    memberSince: new Date('2004-12-03').toISOString(),
   };
+
+  ngOnInit() {
+    console.log(this.user.memberSince);
+  }
+
+
+   x :string = "10";
 }
