@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:gh-pages": "ng build --configuration production && cp dist/nimbus-shop/browser/index.html dist/nimbus-shop/browser/404.html && touch dist/nimbus-shop/browser/.nojekyll",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
