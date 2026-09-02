@@ -53,5 +53,5 @@ export class ProfileComponent {
   }
 
 
-   x :string = "10";
+   x : any = "10";
 }

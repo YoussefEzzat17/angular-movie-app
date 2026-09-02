@@ -24,12 +24,22 @@ import { FavoritesService } from '../services/favorites.service';
           <a routerLink="/products" routerLinkActive="text-violet-400" class="rounded-lg px-2 py-2 hover:text-violet-400">
             Browse
           </a>
+          <a routerLink="/movies" routerLinkActive="text-violet-400" class="rounded-lg px-2 py-2 hover:text-violet-400">
+            Movies
+          </a>
           <a
             routerLink="/practice"
             routerLinkActive="text-violet-400"
             class="hidden rounded-lg px-2 py-2 hover:text-violet-400 lg:block"
           >
             Practice
+          </a>
+          <a
+            routerLink="/signals"
+            routerLinkActive="text-violet-400"
+            class="hidden rounded-lg px-2 py-2 hover:text-violet-400 xl:block"
+          >
+            Signals
           </a>
           <a
             routerLink="/favorites"
