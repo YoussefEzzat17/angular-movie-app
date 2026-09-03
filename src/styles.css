@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  html { @apply overflow-x-hidden; }
   body { @apply m-0 bg-slate-950 font-sans text-slate-100; }
   button, input { font: inherit; }
 }

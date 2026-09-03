@@ -5,9 +5,9 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [FormsModule],
   template: `
-    <section class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+    <section class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
       <p class="text-sm font-semibold text-violet-400">HANDS-ON WORKSHOP</p>
-      <h1 class="mt-1 text-4xl font-bold">Angular binding practice</h1>
+      <h1 class="mt-1 text-3xl font-bold sm:text-4xl">Angular binding practice</h1>
       <p class="mt-3 max-w-2xl text-slate-400">
         Edit this component file, save it, and watch the results update in the browser.
       </p>

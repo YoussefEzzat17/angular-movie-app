@@ -5,9 +5,9 @@ import { Component, computed, effect, signal } from '@angular/core';
   standalone: true,
   imports: [CurrencyPipe],
   template: `
-    <section class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+    <section class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
       <p class="text-sm font-semibold text-violet-400">HANDS-ON WORKSHOP</p>
-      <h1 class="mt-1 text-4xl font-bold">Signals Playground</h1>
+      <h1 class="mt-1 text-3xl font-bold sm:text-4xl">Signals Playground</h1>
       <p class="mt-3 max-w-3xl text-slate-400">
         Change the product and quantity below. Every value updates automatically because Angular Signals are reactive.
       </p>

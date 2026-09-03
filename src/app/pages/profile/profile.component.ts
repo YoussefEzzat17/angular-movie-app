@@ -8,9 +8,9 @@ import { User } from '../../core/models/user.model';
   standalone: true,
   imports: [FormsModule, DatePipe],
   template: `
-    <section class="mx-auto max-w-4xl px-4 py-12 sm:px-6">
+    <section class="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12">
       <p class="text-sm font-semibold text-violet-400">YOUR PROFILE</p>
-      <h1  class="mt-1 text-4xl font-bold">Make it yours.</h1>
+      <h1 class="mt-1 text-3xl font-bold sm:text-4xl">Make it yours.</h1>
       <p class="mt-3 text-slate-400">Type in the form and watch the preview update through two-way binding.</p>
 
       <div class="mt-9 grid gap-8 rounded-3xl bg-slate-900 p-6 shadow-sm ring-1 ring-slate-700 md:grid-cols-2 md:p-10">

@@ -6,9 +6,9 @@ import { MovieService } from '../../core/services/movie.service';
 @Component({
   standalone: true,
   template: `
-    <section class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+    <section class="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
       <p class="text-sm font-semibold text-violet-400">SERVICES · HTTPCLIENT · SIGNALS</p>
-      <h1 class="mt-1 text-4xl font-bold">Real movie API</h1>
+      <h1 class="mt-1 text-3xl font-bold sm:text-4xl">Real movie API</h1>
       <p class="mt-3 max-w-3xl text-slate-400">
         These films come from a public API. Type below to see property binding, event binding,
         a signal, and a computed value work together.
