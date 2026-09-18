@@ -1,7 +1,10 @@
 import { Routes } from '@angular/router';
 
 import { BindingPracticeComponent } from './pages/binding-practice/binding-practice.component';
+import { ComponentCommunicationComponent } from './pages/component-communication/component-communication.component';
+import { DirectivesComponent } from './pages/directives/directives.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
+import { FormsComponent } from './pages/forms/forms.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MoviesComponent } from './pages/movies/movies.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
@@ -17,6 +20,9 @@ export const routes: Routes = [
   { path: 'profile', component: ProfileComponent, title: 'Profile' },
   { path: 'favorites', component: FavoritesComponent, title: 'My List' },
   { path: 'practice', component: BindingPracticeComponent, title: 'Binding Practice' },
+  { path: 'communication', component: ComponentCommunicationComponent, title: 'Parent and Child' },
+  { path: 'directives', component: DirectivesComponent, title: 'Directives' },
+  { path: 'forms', component: FormsComponent, title: 'Forms' },
   { path: 'signals', component: SignalsPlaygroundComponent, title: 'Signals Playground' },
   { path: 'movies', component: MoviesComponent, title: 'Real Movie API' },
   { path: '**', component: NotFoundComponent, title: 'Not Found' },
