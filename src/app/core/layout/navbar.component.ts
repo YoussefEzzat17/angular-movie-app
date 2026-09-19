@@ -101,13 +101,13 @@ export class NavbarComponent implements OnDestroy {
     { path: '/', label: 'Home', exact: true },
     { path: '/products', label: 'Browse' },
     { path: '/movies', label: 'Movies' },
-    { path: '/practice', label: 'Practice' },
+    { path: '/binding', label: 'Binding' },
     { path: '/communication', label: 'Parent / Child' },
     { path: '/directives', label: 'Directives' },
     { path: '/forms', label: 'Forms' },
     { path: '/signals', label: 'Signals' },
+    { path: '/assignment', label: 'Assignment' },
     { path: '/favorites', label: 'My List', count: 'favorites' as const },
-    { path: '/profile', label: 'Profile' },
   ];
 
   private readonly router = inject(Router);
